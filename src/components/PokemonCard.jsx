@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function PokemonCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, marginRight:"2em" }}>
       <CardActionArea>
         <CardMedia
           component="img"
